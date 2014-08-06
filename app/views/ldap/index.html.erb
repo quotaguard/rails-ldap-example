@@ -1,0 +1,20 @@
+<h1>LDAP test</h1>
+<p><strong>Origin IP:</strong> <%= @ip %></p>
+<p>These results are queried live from an LDAP test server kindly provided by <a href="http://blog.stuartlewis.com/2008/07/07/test-ldap-service">Stuart Lewis</a>.</p>
+<%= @results.size %> results found! 
+<table>
+<tr>
+<th>Given Name</th>
+<th>Surnam</th>
+<th>Email</th>
+<th>Phone number</th>
+</tr>
+<% @results.each do | result | %> 
+<tr>
+<td><%= result[:givenname][0] %></td>
+<td><%= result[:sn][0] %></td>
+<td><%= result[:mail][0] %></td>
+<td><%= result[:telephonenumber][0] %></td>
+</tr>
+<% end %>
+</table>

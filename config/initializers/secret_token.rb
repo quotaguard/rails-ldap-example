@@ -1,0 +1,1 @@
+RailsLdapExample::Application.config.secret_key_base = 'fd1e64df9deb623ffd810f04c5730e2348ae7a91bc25ca15b1f7256fbe50187ceaf9497f6832e7f2b8f4807ff5fa441af799430a80952a3e9b1596a9de1d60b3'
