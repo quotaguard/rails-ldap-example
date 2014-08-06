@@ -11,6 +11,7 @@ This repo contains a sample Rails 4 app that integrates with LDAP using the **ne
 
 ### Results
 You should see a table of results that have been queried from a test LDAP server
+![LDAP Results](https://raw.githubusercontent.com/quotaguard/rails-ldap-example/master/app/assets/images/ldaptest-screenshot.png)
 
 ### Implementation
 * Initial LDAP configuration is in config/initializers/ldap.rb
